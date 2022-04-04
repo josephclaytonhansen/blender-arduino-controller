@@ -142,19 +142,7 @@ void onEditorEncoder(EncoderButton & eb) {
     Keyboard.press(KEY_F10);
     Keyboard.release(KEY_F10);
     Keyboard.release(KEY_LEFT_SHIFT);
-    Keyboard.press(KEY_LEFT_SHIFT);
-    Keyboard.press(KEY_F10);
-    Keyboard.release(KEY_F10);
-    Keyboard.release(KEY_LEFT_SHIFT);
   } else if (pos == 2) {
-    Keyboard.press(KEY_LEFT_SHIFT);
-    Keyboard.press(KEY_F3);
-    Keyboard.release(KEY_F3);
-    Keyboard.release(KEY_LEFT_SHIFT);
-    Keyboard.press(KEY_LEFT_SHIFT);
-    Keyboard.press(KEY_F3);
-    Keyboard.release(KEY_F3);
-    Keyboard.release(KEY_LEFT_SHIFT);
     Keyboard.press(KEY_LEFT_SHIFT);
     Keyboard.press(KEY_F3);
     Keyboard.release(KEY_F3);
