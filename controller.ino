@@ -19,7 +19,7 @@ const int Blue2 = 13;
 int pos = 0;
 int frame_value = 10;
 int buttonState = 0;
-int buttonState2 = 0;
+int resetState = 0;
 
 void onMediaClicked(EncoderButton & eb) {
   Consumer.press(MEDIA_PLAY_PAUSE);
@@ -249,6 +249,7 @@ void loop() {
   }
 
   buttonState = analogRead(onionButton);
+  //resetState = analogRead(resetButton);
   // check if the pushbutton is pressed. If it is, the buttonState is HIGH:
   if (buttonState > 1000) {
     analogWrite(Blue2, 0);
@@ -264,5 +265,10 @@ void loop() {
   } else {
     analogWrite(Blue2, 255);
   }
+
+  if (resetState > 1000){
+    frame_value = 10;
+    pos = 0;
+    }
 
 }
