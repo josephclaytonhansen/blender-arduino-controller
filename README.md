@@ -35,6 +35,6 @@ Arduino Leonardo controller for Blender, using rotary encoders. Make a desktop s
 You can change any of these functions, any of these pins, etc. This is just how I have mine set up. 
 
 ## LED Indicators
-![frames](https://user-images.githubusercontent.com/45859835/161613221-4180ad44-2b76-4d5c-99bc-1d8192f06665.png)
+![frames](https://user-images.githubusercontent.com/45859835/161615865-181ade52-9138-4272-b6a5-d8a12453a0b7.png)
 ![editor](https://user-images.githubusercontent.com/45859835/161614361-bbc53b99-9865-4d3a-bcc3-30ef1dce3e6e.png)
 
