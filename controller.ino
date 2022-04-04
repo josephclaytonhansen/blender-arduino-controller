@@ -263,7 +263,7 @@ void loop() {
   buttonState = analogRead(onionButton);
   // check if the pushbutton is pressed. If it is, the buttonState is HIGH:
   if (buttonState > 1000) {
-    analogWrite(Blue2, 255);
+    analogWrite(Blue2, 0);
     Keyboard.press(KEY_LEFT_SHIFT);
     Keyboard.press(KEY_LEFT_CTRL);
     Keyboard.press(KEY_LEFT_ALT);
@@ -274,7 +274,7 @@ void loop() {
     Keyboard.release(KEY_F9);
     delay(400);
   } else {
-    analogWrite(Blue2, 0);
+    analogWrite(Blue2, 255);
   }
 
 }
