@@ -1,7 +1,7 @@
 # blender-arduino-controller
 Arduino Leonardo controller for Blender, using rotary encoders. Make a desktop shortcut box. This essentially acts as a second keyboard for Blender specific functions. 
 
-* Blender doesn't have all these functions mapped to keyboard shortcuts out of the box. You need to install AnimationController.py as an add-on for this to work.*
+*Blender doesn't have all these functions mapped to keyboard shortcuts out of the box. You need to install AnimationController.py as an add-on for this to work.*
 
 ## Uses add-ons:
 * [Animation Extras](https://blendermarket.com/products/animation-extras)
