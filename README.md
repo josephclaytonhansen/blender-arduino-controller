@@ -38,3 +38,7 @@ You can change any of these functions, any of these pins, etc. This is just how 
 ![frames](https://user-images.githubusercontent.com/45859835/161615865-181ade52-9138-4272-b6a5-d8a12453a0b7.png)
 ![editor](https://user-images.githubusercontent.com/45859835/161614361-bbc53b99-9865-4d3a-bcc3-30ef1dce3e6e.png)
 
+## Additional Notes
+This is entirely blind to what is actually happening in Blender, it sends the keyboard shortcuts with no feedback. This isn't normally a problem, just note that you need to either rotate the Editor encoder to Viewport before exiting Blender or press the Reset button. Othewise, the current editor (according to the Encoder) will remain whatever it is. When you open up a new file, your LED indicators and knob positions will no longer match up correctly. 
+
+The Reset button isn't currently coded, because I'm waiting for parts and I was getting phantom values if I was reading that pin. It's unlikely anyone will see this, but you need to add the Reset button code yourself! (I will remove this once my own controller is updated.) 
