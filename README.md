@@ -33,7 +33,7 @@ Arduino Leonardo controller for Blender, using rotary encoders. Make a desktop s
 * Press to set Onion Skinning for the selected object, start drawing, and update the onion skin. While pressed, the BLUE light on the second RGB LED will be off, otherwise it will be on. 
 
 ### Reset Button (8)
-
+* Press to reset the Editor encoder and frames amount. You should do this when starting, or ending, a Blender session. (Pick one, or both) If not, the Leonardo will keep the persistent values from the old session. See *cautions* below. 
 
 You can change any of these functions, any of these pins, etc. This is just how I have mine set up. 
 
