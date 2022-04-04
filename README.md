@@ -44,7 +44,5 @@ You can change any of these functions, any of these pins, etc. This is just how 
 ## Cautions
 This is entirely blind to what is actually happening in Blender, it sends the keyboard shortcuts with no feedback. This isn't normally a problem, just note that you need to either rotate the Editor encoder to Viewport before exiting Blender or press the Reset button. Othewise, the current editor (according to the Encoder) will remain whatever it is. When you open up a new file, your LED indicators and knob positions will no longer match up correctly. Likewise, you'll need to either set the frame amount to 10 manually, or just press the Reset button. 
 
-The Reset button isn't currently coded, because I'm waiting for parts and I was getting phantom values if I was reading that pin. It's unlikely anyone will see this, but you need to add the Reset button code yourself! (I will remove this once my own controller is updated.) 
-
 ## Why is the pin numbering so weird?
 Because both LEDs must use 3 PWM pins each, and the pins that are PWM are weird ;) 
