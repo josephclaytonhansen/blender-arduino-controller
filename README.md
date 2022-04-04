@@ -33,3 +33,8 @@ Arduino Leonardo controller for Blender, using rotary encoders. Make a desktop s
 * Press to set Onion Skinning for the selected object, start drawing, and update the onion skin. While pressed, the BLUE light on the second RGB LED will be off, otherwise it will be on. 
 
 You can change any of these functions, any of these pins, etc. This is just how I have mine set up. 
+
+## LED Indicators
+![frames](https://user-images.githubusercontent.com/45859835/161613221-4180ad44-2b76-4d5c-99bc-1d8192f06665.png)
+![editor](https://user-images.githubusercontent.com/45859835/161614361-bbc53b99-9865-4d3a-bcc3-30ef1dce3e6e.png)
+
